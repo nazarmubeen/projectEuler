@@ -25,9 +25,7 @@ public class Problem22 {
 				String[] names=line.split(",");
 				for(String name:names)
 				{
-					name=name.substring(1, name.length()-1);
-					//System.out.println(name);
-					namesList.add(name);
+					namesList.add(name.substring(1, name.length()-1));
 				}
 				
 			}
